@@ -2,3 +2,12 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
+.flexible-section{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+}
+.introduction-color{
+    color: orange;
+}
