@@ -4,10 +4,60 @@ body{
 }
 .flexible-section{
     display: flex;
+    margin-bottom: 100px;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .introduction-color{
     color: orange;
+}
+.half-section{
+    width: 50%;
+    margin-left: 30px;
+    padding-left: 5px;
+}
+div img{
+    width: 80%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.button-design{
+    background-color: tomato;
+    padding: 2% 5%;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+}
+.dream-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiences-section{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+.experiences-item{
+    box-shadow: 10px 10px 40px chocolate;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 5px;
+}
+#full-stack{
+    border-left: 7px solid blue;
+}
+#baby-web{
+    border-left: 7px solid green;
+}
+.footer{
+    text-align: center;
 }
